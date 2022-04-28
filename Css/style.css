@@ -191,6 +191,16 @@ bottom: 50px;
   flex-direction: column;
 }
 
+.testimonials{
+  background-color: #212529 !important;
+  padding: 50px;
+  color:white;
+}
+
+.testimonial-content{
+  margin-top: 80px;
+}
+
 
 
 @media screen and (min-width:300px){
