@@ -10,17 +10,22 @@
 
 
 .simplelineicons{
-  border: 2px solid grey;
+  border: 1px solid #cecece;
   border-radius: 60px;
   padding: 20px;
-  margin-bottom: 50px !important;
+ 
   font-size: 40px;
+  color: #0088CC;
 }
 
 .logo{
     width: 10%;
     margin-right: 500px;
     margin-left: 200px;
+}
+
+.nav-item{
+ 
 }
 
 .Nav-logo{
@@ -84,16 +89,39 @@ body{
 }
 
 
-.charactersection{
-    border-bottom: 2px solid black;
-}
 
 
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
     background-color: transparent !important;
-    border-bottom: 2px solid grey;
+    border-bottom: 2px solid #0088CC;
     color: black !important;
+    border-radius: 0 !important;
 }
+
+.properties{
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  margin: 50px;
+  text-align: center;
+  
+}
+
+.nav-item{
+  background-color: transparent !important;
+  border-bottom: 3px solid #eee;
+  color: black !important;
+  border-radius: 0 !important;
+}
+/* .nav-pills .nav-link.active, .nav-pills .nav-link{
+  padding: 15px 30px;
+    background: none;
+    border: 0;
+    border-bottom: 3px solid #eee;
+    border-radius: 0;
+    color: #777;
+    font-size: 16px;
+} */
 
 
 .service{
@@ -118,4 +146,14 @@ body{
 .herosection{
     position: absolute;
 bottom: 50px;
+}
+
+
+
+
+@media screen and (min-width:300px){
+  
+  .nav-item{
+    margin-bottom: 60px;
+  }
 }
