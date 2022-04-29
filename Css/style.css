@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 
 body{
-  font-family: "Open Sans", Arial, sans-serif !important;
+ font-family: 'Poppins', sans-serif !important;
 }
-
 
 .Nav-bar{
    display: flex;
@@ -184,6 +184,36 @@ bottom: 50px;
   padding: 50px;
 }
 
+
+.countupsection{
+  padding-top: 50px;
+  
+}
+
+
+.counterlearnmore{
+  margin-top: 50px;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  background-color: #f7f7f7;
+  color: black;
+}
+
+.counter
+{
+    text-align: center;
+}
+
+.counter-count
+{
+    font-size: 50px;
+    font-weight: bold;
+    position: relative;
+    color: #000000;
+    text-align: center;
+    display: inline-block;
+}
+
 .maintitle{
   display: flex;
   justify-content: center;
@@ -202,6 +232,31 @@ bottom: 50px;
 }
 
 
+.footersection{
+  background-color: #212529;
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+
+p{
+  color: #777;
+}
+
+.footercontents{
+  margin-top: 30px;
+  font-size: 13px
+}
+
+.footercontact{
+  display: flex;
+  margin-left: 50px;
+}
+
+.footericons{
+  color: #0088CC !important;
+}
 
 @media screen and (min-width:300px){
   
