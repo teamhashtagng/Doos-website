@@ -175,6 +175,42 @@ bottom: 50px;
 
 }
 
+.featurebox{
+  background-color: #0088CC;
+  border-radius: 60px;
+  padding: 20px;
+  width: 7px;
+  height: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+
+}
+
+.feature {
+  display: flex;
+  
+  
+
+}
+
+.recentwork-item{
+ padding: 20px;
+  margin: 80px;
+  background-color: #EDEDED !important;
+  width: 700px;
+  box-shadow: 0 5px 5px rgb(0 0 0 / 20%);
+ 
+ 
+}
+
+.recentwork-carousel{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .subcontent{
   margin-top:20px;
   margin-bottom: 50px;
@@ -182,6 +218,14 @@ bottom: 50px;
 
 .recentworks{
   padding: 50px;
+ 
+}
+
+.centralised{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 
@@ -264,3 +308,17 @@ p{
     margin-bottom: 60px;
   }
 }
+
+
+/* .carousel-control-next-icon {
+  display: none !important;
+  background-image: url('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M438.6 278.6l-160 160C272.4 444.9 264.2 448 256 448s-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L338.8 288H32C14.33 288 .0016 273.7 .0016 256S14.33 224 32 224h306.8l-105.4-105.4c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l160 160C451.1 245.9 451.1 266.1 438.6 278.6z"/></svg>') !important;
+}
+
+.carousel-control-next-icon ::after {
+  content: '\f061'  !important;
+font-family: FontAwesome !important;
+  color:#0088CC;
+    
+}
+ */
