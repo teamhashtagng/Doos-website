@@ -25,6 +25,13 @@ body{
   color: #0088CC;
 }
 
+/* .borderouter{
+  border: 3px solid #cfcfcff9 ;
+  border-radius: 80px;
+  padding: 20px;
+  
+} */
+
 .logo{
     width: 10%;
     margin-right: 500px;
@@ -60,7 +67,7 @@ body{
     }
 }
 
-
+/* 
 @keyframes typing {
     from {
       width: 0
@@ -71,7 +78,7 @@ body{
     50% {
       border-color: transparent
     }
-  }
+  } */
 
 .bannerText{
     animation: typing 2s steps(22), blink .5s step-end infinite alternate;
@@ -96,11 +103,46 @@ body{
 }
 
 
+.carousel-caption{
+  top: 30% !important;
+  bottom: unset !important;
+  text-align: left !important;
+  text-transform: uppercase !important;
+}
 
 
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+.typewriter{
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 6s steps(30, end), blink-caret .5s step-end infinite ;
+  background: rgba(0, 0, 0, 0.4);
+  visibility: inherit;
+ transition: ease-out 10s;
+
+}
+
+@keyframes typing {
+  from { width: 0 ;
+  }
+  to { width: 100%;
+   ;
+   }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from { border-color: transparent } 50% , to
+ { border-color: orange }
+}
+
+.carousel-caption{
+  transition: ease-out !important;
+}
+
+
+.nav-pills .active, .nav-pills .show >.nav-link{
     background-color: transparent !important;
-    border-bottom: 2px solid #0088CC;
+    border-bottom: 2px solid #0088CC !important;
     color: black !important;
     border-radius: 0 !important;
 }
