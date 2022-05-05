@@ -15,7 +15,19 @@ body{
    
 }
 
+.HeroAbout {
+    width: 100%;
+  background: url("../Images/banner5.jpg");
+  text-align: center;
+  height: 500px;
+  padding: 200px;
+  
+}
 
+.myabout{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
 .simplelineicons{
   border: 1px solid #cecece;
   border-radius: 60px;
