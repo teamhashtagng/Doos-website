@@ -17,7 +17,9 @@ body{
 
 .HeroAbout {
     width: 100%;
-  background: url("../Images/banner5.jpg");
+    background-color: #212529;
+  background-image: url("../Images/banner5.jpg");
+  background-blend-mode: overlay;
   text-align: center;
   height: 500px;
   padding: 200px;
@@ -45,7 +47,7 @@ body{
 } */
 
 .logo{
-    width: 10%;
+    width: 30%;
     margin-right: 500px;
     margin-left: 200px;
 }
@@ -356,10 +358,66 @@ p{
   color: #0088CC !important;
 }
 
-@media screen and (min-width:300px){
+@media screen and (max-width:600px){
   
   .nav-item{
     margin-bottom: 60px;
+  }
+
+  .recentwork-item{
+    width: 100%;
+    margin: 10px;
+  }
+
+  .controls{
+    font-size: 15px !important;
+  }
+  .nexticon{
+    margin-left: 40px !important;
+  }
+  .previcon{
+    margin-right: 40px !important;
+  }
+
+  .carousel-caption{
+    top: unset !important;
+    bottom: 20% !important;
+    width: 100% !important  ;
+    
+  }
+  .d-none{
+    display: inline-block !important;
+  }
+
+  .hero-item{
+    height: 250px !important;
+  }
+  .typewriter{
+    font-size: 50% !important;
+    padding: 10px !important;
+
+  }
+  .logo{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .HeroAbout{
+    padding: 90px !important;
+  }
+
+  .myabout-item{
+    margin-bottom: 50px;
+  }
+
+  .count-up{
+    margin-bottom: 50px;
+  }
+  .footer-item{
+    margin-bottom: 50px;
+  }
+  input {
+    margin: 5px !important;
   }
 }
 
