@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DooCorp website</title>
+    <title>Home | Doods International Operations Limited</title>
     <link rel="stylesheet" href="./Css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" integrity="sha512-QKC1UZ/ZHNgFzVKSAhV5v5j73eeL9EEN289eKAEFaAjgAiobVAnVv/AGuPbXsKl1dNoel3kNr6PYnSiTzVVBCw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -23,16 +23,19 @@
         <div class="nav-container">
         <nav class="navbar navbar-expand-lg fixed-top Nav-bar">
             <div class="container-fluid">
-              <img src="./Images/doos.png" alt="logo" class="logo" />
+
+              <a href="../index.html" class="logo">
+                <img src="./Images/doos.png" alt="logo" style="width: 40%;" />
+              </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"><i class="fa-solid fa-bars" style="color: white;"></i></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav ">
                   <a class="nav-link links" aria-current="page" href="#">HOME</a>
                   <a class="nav-link links" href="./Pages/about.html">ABOUT</a>
-                  <a class="nav-link links" href="#">SERVICE</a>
-                  <a class="nav-link links">CONTACT</a>
+                  <a class="nav-link links" href="./Pages/services.html">SERVICE</a>
+                  <a class="nav-link links" href="./Pages/contact.html">CONTACT</a>
                   <i class="fa-brands fa-facebook-square " style="color: white; margin:10px;"></i>
                   <i class="fa-brands fa-twitter" style="color: white; margin:10px;"></i>
                   <i class="fa-brands fa-linkedin  " style="color: white; margin:10px;"></i>
@@ -42,38 +45,40 @@
           </nav>
           </div>
           <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
+            <!-- <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
+            </div> -->
             <div class="carousel-inner" >
-              <div class="carousel-item active" style="height: 750px;">
+              <div class="carousel-item active hero-item" style="height: 750px;">
                 <img src="./Images/banner1.jpg" class="d-block w-100 bannerImage" alt="..." >
-                <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-caption  d-md-block">
                   <div>
-                    <h5 class="typewriter">Welcome to</h5>
-                    <h2 class="typewriter" style=" padding: 30px; font-size: 70px;">Doos Corporation</h2>
+                    <div style="width:400px">
+                    <h5 class="typewriter" style="padding: 30px;">Welcome to</h5>
+                  </div>
+                    <h2 class="typewriter" style=" padding: 30px; font-size: 70px;">Doods International</h2>
                     <p class="typewriter">Some representative placeholder content for the third slide.</p>
                   </div>  
                 </div>
               </div>
-              <div class="carousel-item" style="height: 750px;">
+              <div class="carousel-item hero-item" style="height: 750px;">
                 <img src="./Images/banner2.jpg" class="d-block w-100 bannerImage" alt="..."  >
-                <div class="carousel-caption d-none d-md-block">
-                  <div>
+                <div class="carousel-caption  d-md-block">
+                  <div class="">
                     <h5 class="typewriter">Welcome to</h5>
-                    <h4 class="typewriter" style=" padding: 50px;">Doos Corporation</h4>
+                    <h4 class="typewriter" style=" padding: 50px;">Doods International Operations Limited</h4>
                     <p class="typerwriter">Some representative placeholder content for the third slide.</p>
                   </div>  
                 </div>
               </div>
-              <div class="carousel-item" style="height: 750px;">
+              <div class="carousel-item hero-item" style="height: 750px;">
                 <img src="./Images/banner3.jpg" class="d-block w-100 bannerImage" alt="..."  >
-                <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-caption d-md-block">
                   <div>
                     <h5 class="typewriter">Welcome to</h5>
-                    <h4 class="typewriter" style=" padding: 50px;">Doos Corporation</h4>
+                    <h4 class="typewriter" style=" padding: 50px;">Doods International Operations Limited</h4>
                     <p class="typewriter">Some representative placeholder content for the third slide.</p>
                   </div>  
                 </div>
@@ -158,7 +163,7 @@
        <div class="col-md-6 col-xs-12">
       <div>
           <h2>Who we are ?</h2>
-          <p>This is Doos Corporation | Your Go-To Web Team</p>
+          <p>This is Doods International Operations Limited | Your Go-To Web Team</p>
           <div class="title"></div>
       </div>
       <div class="subcontent">
@@ -279,11 +284,11 @@
             </div>
           </div>
           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"><i class="icon-arrow-left" style="color: #0088CC; font-size: 30px; margin-right: 200px;"></i></span>
+            <span class="carousel-control-prev-icon" aria-hidden="true"><i class="icon-arrow-left controls previcon" style="color: #0088CC; font-size: 30px; margin-right: 200px;"></i></span>
             <span class="visually-hidden">Previous</span>
           </button>
           <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-            <span class="carousel-control-next-icon" style="color: #0088CC !important; " aria-hidden="true"><i class="icon-arrow-right" style="color: #0088CC; font-size: 30px; margin-left: 20px;"></i></span>
+            <span class="carousel-control-next-icon" style="color: #0088CC !important; " aria-hidden="true"><i class="icon-arrow-right controls nexticon" style="color: #0088CC; font-size: 30px; margin-left: 20px;"></i></span>
             <span class="visually-hidden">Next</span>
           </button>
         </div>
@@ -343,7 +348,7 @@
                     <i class="fa-solid fa-quote-left" style="font-size: 40px; margin-top: 20px; margin-bottom: 20px;"></i><br/>
                 </div>
                 <div style="text-align: center; width: 300px;">
-                  <p style="margin-top: 10px; margin-bottom: 10px; ">We developed a great partnership with Doos Coorpoaration and their deication to our website is evident in all aspects of the site.</p>
+                  <p style="margin-top: 10px; margin-bottom: 10px; ">We developed a great partnership with Doods International Operations Limited and their deication to our website is evident in all aspects of the site.</p>
  
                 <div style="margin-top: 20px; margin-bottom: 20px;">
                   <h4>Rhoda Melania</h4>
@@ -417,7 +422,7 @@
         <div class="container">
         <div class="row">
         <div class="col-md-8" style="text-align: center;">
-        <h5>Doos Corporation is <b>everything</b> you need to deploy that <b>amazing</b> solution!</h5>
+        <h5>Doods International Operations Limited is <b>everything</b> you need to deploy that <b>amazing</b> solution!</h5>
         <p>The best company for your new project.</p>
       </div>
       <div class="col-md-4">
@@ -436,14 +441,14 @@
 <div class="container">
   <div class="mainfooterlinks">
     <div class="row">
-      <div class="col-md-4 col-xs-12">
+      <div class="col-md-4 col-xs-12 footer-item">
         <img src="./Images/doos.png" width="20%" />
         <p class="footercontents">
           Our growing clientele spanning across the globe is a testament to our technological prowess in the areas of scalable cloud solutions, RPA, App development and a ton of robust and powerful solutions for your business ventures.
         </p>
 
       </div>
-      <div class="col-md-4 col-xs-12 ">
+      <div class="col-md-4 col-xs-12 footer-item ">
         <h5>CONTACT US</h5>
         <div class="footercontents">
         <p><i class="fa-solid fa-circle-dot footericons" style="margin-right:5px;"></i> 282 Katonah Ave #525 Katonah, NY 10536</p>
@@ -452,7 +457,7 @@
       </div>
 
       </div>
-      <div class="col-md-4 col-xs-12">
+      <div class="col-md-4 col-xs-12 footer-item">
         <h5>QUICK LINKS</h5>
         <div class="footercontents">
         <p><i class="fa-solid fa-circle-dot footericons" style="margin-right:5px;"></i>About us</p>
@@ -470,7 +475,7 @@
 <div class="container">
   <div class="row">
     <div class="col-md-6 col-xs-12"> 
-      <p>© Copyright 2020. All Rights Reserved. Developed by Doos Corporation</p>
+      <p>© Copyright 2020. All Rights Reserved. Developed by Doods International Operations Limited</p>
 
     </div>
     <div class="col-md-6 col-xs-12"> 
