@@ -95,8 +95,12 @@ body{
   } */
 
 .bannerText{
-    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    
     white-space: nowrap;
+    animation-name: typing;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+
 } 
 
 .bannerImage{
@@ -128,19 +132,32 @@ body{
 .typewriter{
   overflow: hidden;
   white-space: nowrap;
-  animation: typing 6s steps(30, end), blink-caret .5s step-end infinite ;
+  /* animation: typing 6s steps(30, end), blink-caret .5s step-end infinite ; */
   background: rgba(0, 0, 0, 0.4);
   visibility: inherit;
- transition: ease-out 10s;
+  animation-name: typing;
+  animation-duration: 2s;
+  animation-timing-function: ease-in;
+
 
 }
 
 @keyframes typing {
-  from { width: 0 ;
+  0%{
+    width: 0;
   }
-  to { width: 100%;
-   ;
-   }
+  25%{
+    width: 25%;
+  }
+  50%{
+    width: 50%;
+  }
+  75%{
+    width: 75%;
+  }
+  100%{
+    width: 100%;
+  }
 }
 
 /* The typewriter cursor effect */
@@ -224,6 +241,22 @@ bottom: 50px;
   width: 300px;
 }
 
+.maincontent{
+  animation-name: fade;
+  animation-duration: 6s;
+  animation-timing-function: ease-in;
+}
+
+@keyframes fade {
+  0%{
+    right: -1000px;
+
+  }
+  100%{
+    right: 0;
+  }
+  
+}
 
 .sub-title{
   border-bottom: 3px solid #0088CC;
